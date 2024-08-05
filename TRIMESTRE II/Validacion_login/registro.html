@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="registro.css">
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>ffsd
+
+    </h1>
+    <form class="MiEstilo">
+		<h4>Cree su cuenta</h4>
+		<input  class="caja" type="text"  id="identify" placeholder="Ingrese su numero de identificación" required>
+		<input  class="caja" type="text"  id="nombres" placeholder="Ingrese sus nombres" required>
+		<input  class="caja" type="text"  id="apellidos" placeholder="Ingrese sus apellidos" required>
+		<input  class="caja" type="email"  id="correo" placeholder="Ingrese su correo electronico" required>
+		<input  class="caja" type="text"  id="usuario" placeholder="Cree su nombre de usuario" required>
+		
+
+		<br>
+		<br>
+		<p>las contraseñas no deben tener menos de 7, ni más de 10 caracteres. Solo permite numeros</p>
+		<br>
+	
+		<input  class="caja" type="password" name="clave" id="contraseña1" placeholder="Cree su Contraseña" required>
+		<input  class="caja" type="password" name="clave" id="contraseña2" placeholder="Confirme su Contraseña" required>
+		
+		<!--<input required class="checkbox" type="checkbox"> <p>Estoy de acuerdo con </p><a class="tc" href=" terminos.html "> Términos y condiciones</a>-->
+		
+		<input type="button" onclick="return cuenta()" class="botones" value="Acceder">
+		<p>¿ Ya tienes cuenta ? <a class="tc" href="index.html">Inicia sección</a>
+		</p>
+		
+	</form>
+	<script src="registro.js"></script>
+</body>
+</html>

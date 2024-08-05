@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="Estilos.css">
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+	<form class="MiEstilo">
+		<h4>Iniciar sección </h4>
+		<input  required class="caja" type="text" name="nombres" id="nombres" placeholder="Ingrese su nombre de usuario" >
+	
+		<!--input  class="caja" type="email" name="correo" id="correo" placeholder="Su Correo Electrónico"-->
+		<input required   class="caja" type="password" name="clave" id="clave" placeholder="Ingrese su Contraseña" >
+		<!--<input required class="checkbox" type="checkbox"> <p>Estoy de acuerdo con </p><a class="tc" href=" terminos.html "> Términos y condiciones</a>-->
+		
+		<!-- <button  class="botones"   onclick="return bienvenida()" >Insertar</button> -->
+		<input type="button" onclick="return bienvenida()" class="botones" value="Acceder">
+		<p>¿ No tienes cuenta ? <a class="tc" href="registro.html">Crear una cuenta</a>
+		</p>
+		
+	</form>
+	<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    background-image: url(/ciclo_while/Fondo.jpg);
+}
+h1{
+	color: brown;
+	text-align: center;
+}
+.formulario{
+	background-color: aliceblue;
+	width: 400px;
+	background: #000000;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	
+	margin: auto;
+	
+	border-radius: 20px;
+	font-family: 'Courier New', Courier, monospace;
+	border: solid rgb(14, 194, 185);;
+	box-shadow: 2px 4px 15px #ff0404;
+	align-content: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+p{
+color: aliceblue;
+}
+.boton{
+	background: #1f53c5;
+	color: white;
+	border-color: aliceblue;
+}
+.resultado{
+	display: none;
+	font-family: 'Courier New', Courier, monospace;
+	border-radius:px;
+	padding: 2px;
+	text-align: center;
+}

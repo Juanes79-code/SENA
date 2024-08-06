@@ -35,9 +35,9 @@ function validaciones(){
             });
 
     }
-    else if(/^[0-9]+$/.test(n1 && n2))
+    else if(!/^\d+$/.test(n1) && !/^\d+$/.test(n2))
     {
-        // alert('hola3')
+        
 
         Swal.fire({
             title: '¡Error!',
@@ -50,11 +50,23 @@ function validaciones(){
    
     else if(n1<0)
     {
-        // alert('hola3')
+        
 
         Swal.fire({
             title: '¡Error!',
-            text: 'No se admite digitos negativos',
+            text: 'No se admite digitos negativos ',
+            icon: 'error',
+            confirmButtonText: '¡Aceptar!'
+            });
+        //event.preventDefault();
+    }
+    else if(n2<0)
+    {
+        
+
+        Swal.fire({
+            title: '¡Error!',
+            text: 'No se admite digitos negativos ',
             icon: 'error',
             confirmButtonText: '¡Aceptar!'
             });

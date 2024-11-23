@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.12.4/dist/sweetalert2.all.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.12.4/dist/sweetalert2.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="stilos.css">
+    <script src="funciones.js"></script>
+</head>
+<body>
+    <form>
+    <table>
+            <tr>
+                
+                <th colspan="2">Titulo</th>
+               
+            </tr>     
+            <tr>
+                <td><input id="ident" type="text" placeholder="Identificiación"></td>
+                <td><input id="nomyape" type="text" placeholder="Nombres y Apellidos"></td>
+                
+            </tr>
+            <tr>
+                <td rowspan="3">Nacionalidad</td>
+                <td>Colombiana<input name="nacionalidad" type="radio"></td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>Mexicana<input name="nacionalidad" type="radio"></td>
+                
+            </tr>
+            <tr>
+                <td >Otra<input name="nacionalidad" type="radio"></td>
+                
+                
+            </tr>
+
+            <!-- nuevo grupo -->
+            <tr>
+                <td rowspan="6">Paises Favoritos</td>
+                <td>Canadá<input name="ciudades" type="checkbox"></td>
+                
+            </tr>
+            
+            <tr>
+                <td>Peru<input name="ciudades"  type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>Estados Unidos<input name="ciudades"  type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>Argentina<input name="ciudades"  type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>Chile<input name="ciudades"  type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>Repulica domenicana<input name="ciudades"  type="checkbox"></td>
+            </tr>
+            
+           <tr>
+                <th colspan="2" ><input onclick="return validaciones()"  class="boton" type="submit" name="boton" value="Enviar"></th>
+           </tr>
+    </table>
+    </form>
+</body>
+</html>

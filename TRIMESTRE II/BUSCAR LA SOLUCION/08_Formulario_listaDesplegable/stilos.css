@@ -1,0 +1,25 @@
+table{
+    
+	font-family: 'Courier New', Courier, monospace;
+	border: solid rgb(14, 194, 185);;
+	
+	align-content: center;
+	display: flex;
+	justify-content: center;
+	
+}
+th {
+    
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+td,tr{
+    border: 1px solid black;
+    text-align: justify;
+    text-align: left;
+}
+.boton{
+    
+   border-right: 50%;
+}

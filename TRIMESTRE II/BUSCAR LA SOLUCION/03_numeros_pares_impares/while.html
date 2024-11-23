@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let 
+        contador=0
+        sumatoriapares=0
+        sumatoriaimpares=0
+        contadorpares=0
+        contadorimpares=0
+        promediopares=0
+        f=1
+        
+       while (f<=10) {
+        if (f%2==0) {
+                document.write("Estos son numeros pares "+f + "<br>");
+                document.write("<br>")
+                sumatoriapares=sumatoriapares+f
+                contadorpares=contadorpares+1
+                
+            }
+            else{
+                document.write("Estos son numeros inpares "+f + "<br>")
+                document.write("<br>")
+                sumatoriaimpares=sumatoriaimpares+f
+                contadorimpares=contadorimpares+1
+            }
+        f++;
+       }
+        promediopares=sumatoriapares/contadorpares
+        promedioimpares=sumatoriaimpares/contadorimpares
+        document.write("<br>")
+        document.write("Sumatoria de pares es "+sumatoriapares+"<br>");
+        document.write("el contador de pares es de:"+contadorpares+"<br>")
+        document.write("el porcentaje de pares es de: "+promediopares+"<br>");
+        document.write("<br>")
+        document.write("<br>")
+        document.write("Sumatoria de impares es "+sumatoriaimpares+"<br>");
+      
+        document.write("el contador de impares es de:"+contadorimpares+"<br>")
+        
+        document.write("el porcentaje de impares es de: "+promedioimpares+"<br>");
+        
+        if (promediopares>f) {
+            Document.write("estos son los nuemeros menores al promedio"+f)
+        }
+        
+        
+    </script>
+</body>
+</html>

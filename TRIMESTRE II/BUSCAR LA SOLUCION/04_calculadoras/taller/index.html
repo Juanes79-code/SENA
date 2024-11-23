@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" type="text/css" href="stilos.css">
+
+    <script src="funciones.js" ></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    
+    <br>
+    
+        
+        <!-- <form class="formulario">
+           
+                <h1>Calculadora </h1>
+                <br>
+                <tr><input id="numero1" type="text" placeholder="Primer Numero"></tr> 
+                <br>
+                  
+                <Input  id="numero2" type="text" placeholder="Segundo Numero" >
+                <br>
+                
+                
+                <br>
+                 <p>Suma <input class="x" type="radio" name="op" value="1"></p>
+                 <p>Resta <input class="x" type="radio" name="op" value="2"></p>
+                 <p>Multiplicación <input class="x" type="radio" name="op" value="3"></p>
+                 <p>División<input type="radio" name="op" value="4"></p>
+                 <br>
+                 <input type="button" onclick="return validaciones()" class="boton" value="Resultado">
+                 <br>
+                 <input type="text" class="resultado" id="resultado" readonly>
+                 <br>
+                 <input id="limpiar" type="submit" value="Limpiar"></input>
+            
+                
+        </form> -->
+        <form>
+        <table>
+            <tr>
+                <td><h1>Calculadora</h1></td>
+
+            </tr>
+            <tr>
+                <td><input id="numero1" type="text" placeholder="Primer Numero"></td>
+                <td><p>Suma <input class="x" type="radio" name="op" value="1"></p></td>
+            </tr>
+            <tr>
+                <td><br></td>
+            </tr>
+            <tr>
+                <td><Input  id="numero2" type="text" placeholder="Segundo Numero" ></td>
+                <td><p>Resta <input class="x" type="radio" name="op" value="2"></p></td>
+            </tr>
+            <tr>
+                <td><br></td>
+            </tr>
+            <tr>
+                <td><input type="text" class="resultado" id="resultado" readonly></td>
+                <td><p>Multiplicar <input class="x" type="radio" name="op" value="3"></p></td>
+            </tr>
+            <tr>
+                <td><br></td>
+            </tr>
+            <tr>
+                <td><input id="limpiar" type="submit" value="Limpiar"></input></td>
+                <td><p>Dividir<input type="radio" name="op" value="4"></p></td>
+            </tr>
+            <tr>
+                <td><br></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="button" onclick="return validaciones()" class="boton" value="Resultado"></td>
+            </tr>
+        </table>
+    </form>
+
+    
+</html>

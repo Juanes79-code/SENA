@@ -1,0 +1,84 @@
+
+
+/* Selector Universal */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;    
+}
+
+/* Borde */
+.borde{
+    border: 1px solid black;
+}
+
+/* Contenedor */
+.contenedor{
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;    
+}
+
+/* Barra de navegación */
+.nave{
+    height: 45px;
+}
+
+/* Logo */
+.logo{
+    
+    width: 7%;
+    height: 100%;
+    float: left
+}
+
+/* Opciones */
+.opciones{
+   
+    float: left;
+    height: 100%;
+    width: 86%;
+}
+
+/* Ingresar */
+.ingresar{
+   
+    float: right;
+    height: 100%;
+    width: 7%;
+}
+
+/* Opciones1 */
+.op{
+    
+    float: right;
+    height: 100%;
+    margin-left: 2.5%;
+}
+
+/* Opcion modificada */
+.op1{
+    
+    float: right;
+    height: 100%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+}
+
+/* portada */
+.portada{
+    height: 500px;
+}
+
+/* Portafolio */
+.portafolio{
+    height: 45px;
+}
+
+/* skills */
+.skills{
+    height: 50px;
+    width: 33.3%;
+    float: left;
+}
+

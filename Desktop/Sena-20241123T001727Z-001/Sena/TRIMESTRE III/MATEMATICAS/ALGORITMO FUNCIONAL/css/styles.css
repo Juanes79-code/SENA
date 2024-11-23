@@ -1,0 +1,99 @@
+
+/* Selector Universal */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;   
+    
+}
+
+body{
+    background-image:url("/img/fondo.jpg");
+}
+
+/* Borde */
+.borde{
+    border: 1px solid black;
+}
+
+/* Contenedor */
+.contenedor{
+    width: 95%;
+    max-width: 1280px;
+    margin: auto;    
+    background-color: aliceblue;
+    
+}
+
+/* titulo */
+.titulo{
+    align-items: center;
+   justify-items: center;
+   padding-bottom: 10px;
+}
+
+.formulario{
+    padding-bottom: 10px;
+    background-color: aqua;
+}
+
+.boton{
+    padding: 5px 5px ; /* Espaciado interior del botón */
+    font-size: 10px; /* Tamaño de la fuente */
+    color: white; /* Color del texto */
+    background: linear-gradient(90deg, #007bff, #00c6ff); /* Fondo degradado */
+    border: none; /* Sin bordes */
+    border-radius: 25px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.5); /* Sombra */
+    align-items: center;
+    justify-items: center;
+    border: 50%;
+    width: 50%;
+    margin-left: 25%;
+    justify-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    
+}
+
+.item{
+    display: flex;
+    justify-items: center;
+    margin: 5px 45%;
+    align-items: center;
+   justify-items: center;
+   text-align: center;
+
+}
+
+.limpiar {
+    background-color: #4CAF50; /* Un verde agradable */
+    padding: 5px 5px ; /* Espaciado interior del botón */
+    font-size: 10px; /* Tamaño de la fuente */
+    color: white; /* Color del texto */
+    background: linear-gradient(90deg, #007bff, #00c6ff); /* Fondo degradado */
+    border: none; /* Sin bordes */
+    border-radius: 25px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.5); /* Sombra */
+    align-items: center;
+    justify-items: center;
+    border: 50%;
+    width: 50%;
+    margin-left: 25%;
+    justify-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    border-radius: 12px;
+   
+  }
+
+  .footer{
+    align-items: center;
+    text-align: center;
+  }
+  
+ 

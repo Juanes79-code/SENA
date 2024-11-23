@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Algoritmo funcional</title>
+</head>
+<body>
+    <!-- Contenedor -->
+     <div class="contenedor borde">
+        <div class="titulo borde "><h1>Algoritmo Funcional</h1></div>
+        <div class="borde descripcion">Dados tres lados, el algoritmo determinará el tipo de triángulo tanto por los ángulos como por los lados. A continuación, clasificará el triángulo en función de sus lados como equilátero, isósceles o escaleno. Posteriormente, calculará los ángulos utilizando el teorema de los cosenos para clasificarlos como acutángulo, rectángulo u obtusángulo, en función de los valores obtenidos. Finalmente, el algoritmo presentará los resultados, indicando el tipo de triángulo según ambas clasificaciones.</div>
+        <div class="borde algoritmo">
+            <form class="formulario">
+                <br>
+                <input class="item" id="l1" type="text" placeholder="lado 1"> 
+                <br>
+                
+                <input class="item"  id="l2" type="text" placeholder="lado 2" >
+                <br>
+                
+                <input class="item"   id="l3" type="text" placeholder="lado 3" >
+                <br>
+                <br>
+                 
+                 <input type="button" onclick="return validaciones()" class="boton" value="Resultado">
+                 <br>
+                 
+                 <!-- limpiar -->
+                 <input class="limpiar id="limpiar" type="submit" value="Limpiar">
+                </form>
+                
+            
+        </div>
+        <footer class="footer borde">Hecho por Juan Esteban Alfonso Hernandez
+            <br>
+Juan Pablo Ubate Mosquera 
+<br>
+            Ficha:2926378
+        </footer>
+     </div>
+     <!-- scripst  -->
+    <script src="js/scripts.js"></script>
+    <!-- sweet alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

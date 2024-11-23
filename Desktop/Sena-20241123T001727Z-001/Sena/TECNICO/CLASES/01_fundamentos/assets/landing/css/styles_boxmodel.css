@@ -1,0 +1,163 @@
+/* ------------------------------------------------------------------------------------- */
+/* -------------------------- I. GENERALIDADES DEL CONTENIDO --------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Selector Universal */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;    
+}
+/* Borde */
+.borde{
+    border: 1px solid gray;
+}
+/* ------------------------------------------------------------------------------------- */
+/* ---------------------------- II. LAYOUT: MAQUETACIÓN WEB ---------------------------- */
+/* ------------------------------- ESCRITORIO Y PORTATIL ------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+
+/* Contenedor */
+.contenedor{
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;    
+}
+/* Nav */
+nav{    
+    height: 50px;    
+}
+/* Logo */
+.logo{
+    width: 20%;
+    height: 100%;    
+    float: left;  
+}
+/* Navegador */
+.navega{
+    width: 65%;
+    height: 100%;    
+    float: left;  
+}
+/* Ingreso */
+.ingreso{
+    width: 15%;
+    height: 100%;    
+    float: left;  
+}
+/* Encabezado */
+header{    
+    height: 500px;    
+}
+/* Títulos */
+.titulo{
+    height: 100px;
+}
+/* Secciones */
+section{
+    height: 700px;
+}
+/* Portafolio */
+.portafolio{}
+.portafolio-column{
+    width: 33.33%;
+    height: 100%;
+    float: left;
+}
+/* Nosotros */
+.nosotros{}
+/* Contáctenos */
+.contactenos{}
+/* Pie de Página */
+footer{
+    height: 120px;
+}
+
+
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------ III. RESPONSIVE DESIGN ------------------------------- */
+/* -------------------------------------- TABLETS -------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* Tablet: Media Queries */
+/* @media (max-width: 576px) {
+    /* Contenedor */
+    .contenedor{
+        width: 100%;
+    }
+    /* Nav */
+    /* nav{    
+        height: 150px;
+        background-color: aqua;
+    } */
+    /* Logo */
+    .logo{
+        width: 100%;
+        height: 100px;    
+        background-color: bisque;
+    }
+    /* Ingreso */
+    .ingreso{
+        width: 20%;
+        height: 50px;   
+        background-color: black; 
+        float: right;  
+    }
+        /* Navegador */
+    .navega{
+        width: 80%;
+        height: 50px;    
+        float: left;  
+        background-color: brown;
+    }
+        /* Encabezado */
+    header{    
+        height: 500px;  
+        width: 100%;
+        float: left; 
+        background-color: cadetblue; 
+        
+    }
+} */
+
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------- IV. RESPONSIVE DESIGN ------------------------------- */
+/* ------------------------------------- CELULARES ------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+
+Phone 
+@media (max-width: 576px) {
+    /* Contenedor */
+    .contenedor{
+        width: 100%;
+    }
+    /* Logo */
+    .logo{
+        width: 100%;
+        height: 180px;    
+        background-color: bisque;
+    }
+    .navega{
+        width: 100%;
+        height: 100%;    
+        float: left;  
+        background-color: aqua;
+    }
+    /* Ingreso */
+    .ingreso{
+        width: 100%;
+        height: 100%;    
+        float: left;  
+        background-color: brown;
+    }
+        /* Encabezado */
+    header{    
+        height: 500px; 
+        width: 100%;  
+        float: left; 
+        background-color: black;
+    }
+}
+
+
+
